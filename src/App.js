@@ -1,19 +1,21 @@
 import React from 'react';
-
-import './App.css';
 import UserList from './containers/userList';
+import UserDetail from './containers/userDetail';
+import './App.css';
 
 
-function App() {
-  return (
+
+const App = () => (
+  
     <div>
             <h2>User List:</h2>
             <UserList />
             <hr />
             <h2>User Details:</h2>
+            <UserDetail />
     </div>
-  );
-}
+  
+)
 
 export default App;
 
